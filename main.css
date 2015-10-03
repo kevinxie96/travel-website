@@ -1,0 +1,118 @@
+.nav a {
+  color: rgb(8, 8,112);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 13px 10px;
+  text-transform: uppercase;
+ 
+}
+
+#boom {
+    font-family: "Verdana";
+    background: rgb(147, 147, 147);
+    font-size: 18px;
+    color: rgb(232,232,232)
+}
+
+.nav ul{
+        padding: 0;
+        background: #f2f2f2;
+    }
+.nav li{
+        display: inline-block;
+        position: relative;
+        line-height: 18px;
+        font-family: "Verdana";
+        
+    }
+.nav ul li a{
+        display: block;
+        padding: 8px 24px;
+        
+    }
+.nav ul li a:hover{
+        color: rgb(16,16,16);
+        background: rgb(147, 147, 147);
+    }
+.nav ul li ul.drop{
+        min-width: 190px; 
+        display: none;
+        position: absolute;
+        z-index: 1;
+     
+    }
+.nav ul li:hover ul.drop{
+        display: block;	
+    }
+.nav ul li ul.drop li{
+        display: block;
+    }
+
+.jumbotron {
+  background-image:url('http://wallpaperbang.com/wp-content/uploads/2015/09/Hong-Kong-Buildings-Night-Wallpapers.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+}
+
+.jumbotron .container p{
+  
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;   
+
+}
+
+
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.jumbotron a:hover {
+ color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides{
+ background-color: #efefef; 
+ border-bottom: 1px solid rgb(100,100,100);
+    
+}
+
+.neighborhood-guides h2{
+ color: #393c3d; 
+ font-size: 24px;
+    
+}
+
+.neighborhood-guides p{
+ margin-bottom: 13px; 
+ font-size: 15px;
+    
+}
